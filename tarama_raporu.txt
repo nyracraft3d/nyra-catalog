@@ -1,0 +1,8 @@
+Taranan toplam klasör: 362
+Doğrudan görsel içeren figür klasörü: 271
+Kataloğa eklenen figür: 271
+Toplam görsel: 1198
+
+ÖNEMLİ:
+Bu sayı beklediğiniz sayıdan düşükse, eksik figür klasörleri seçtiğiniz output klasöründe değildir.
+envanter.csv dosyası kataloğa eklenen bütün figürleri tek tek listeler.
