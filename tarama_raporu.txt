@@ -1,7 +1,7 @@
-Taranan toplam klasör: 362
-Doğrudan görsel içeren figür klasörü: 271
-Kataloğa eklenen figür: 271
-Toplam görsel: 1198
+Taranan toplam klasör: 467
+Doğrudan görsel içeren figür klasörü: 356
+Kataloğa eklenen figür: 356
+Toplam görsel: 1658
 
 ÖNEMLİ:
 Bu sayı beklediğiniz sayıdan düşükse, eksik figür klasörleri seçtiğiniz output klasöründe değildir.

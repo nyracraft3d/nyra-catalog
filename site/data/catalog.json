@@ -139,6 +139,31 @@
     "description": "Dimensions:\nHeight: 13.03\" (33.1 cm)\nWidth: 10.16\" (25.8 cm)\nDepth: 18.31\" (46.5 cm)"
   },
   {
+    "id": "anime-bleach-nelliel-tu",
+    "name": "nelliel Tu",
+    "mainCategory": "Anime",
+    "universe": "Bleach",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "nelliel Tu",
+      "Bleach",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Bleach"
+    ],
+    "cover": "assets/catalog/anime-bleach-nelliel-tu/01.png",
+    "images": [
+      "assets/catalog/anime-bleach-nelliel-tu/02.png",
+      "assets/catalog/anime-bleach-nelliel-tu/03.png",
+      "assets/catalog/anime-bleach-nelliel-tu/04.png",
+      "assets/catalog/anime-bleach-nelliel-tu/05.png",
+      "assets/catalog/anime-bleach-nelliel-tu/06.png",
+      "assets/catalog/anime-bleach-nelliel-tu/07.png"
+    ],
+    "description": "scale 1/6"
+  },
+  {
     "id": "anime-bleach-toushirou-hitsugaya",
     "name": "Toushirou Hitsugaya",
     "mainCategory": "Anime",
@@ -271,6 +296,29 @@
     "description": "X200mm\nY310mm\nZ173mm"
   },
   {
+    "id": "anime-jujutsu-kaisen-gojo",
+    "name": "gojo",
+    "mainCategory": "Anime",
+    "universe": "Jujutsu Kaisen",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "gojo",
+      "Jujutsu Kaisen",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Jujutsu Kaisen"
+    ],
+    "cover": "assets/catalog/anime-jujutsu-kaisen-gojo/01.png",
+    "images": [
+      "assets/catalog/anime-jujutsu-kaisen-gojo/02.png",
+      "assets/catalog/anime-jujutsu-kaisen-gojo/03.png",
+      "assets/catalog/anime-jujutsu-kaisen-gojo/04.png",
+      "assets/catalog/anime-jujutsu-kaisen-gojo/05.png"
+    ],
+    "description": "1/6 scale"
+  },
+  {
     "id": "anime-jujutsu-kaisen-maki",
     "name": "Maki",
     "mainCategory": "Anime",
@@ -314,6 +362,30 @@
       "assets/catalog/anime-jujutsu-kaisen-satoru-gojo/05.jpg"
     ],
     "description": "Dimensions:\nHeight: 15.47\" (39.3 cm)\nWidth: 9.09\" (23.1 cm)\nDepth: 9.65\" (24.5 cm)"
+  },
+  {
+    "id": "anime-jujutsu-kaisen-sukuna",
+    "name": "sukuna",
+    "mainCategory": "Anime",
+    "universe": "Jujutsu Kaisen",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "sukuna",
+      "Jujutsu Kaisen",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Jujutsu Kaisen"
+    ],
+    "cover": "assets/catalog/anime-jujutsu-kaisen-sukuna/01.png",
+    "images": [
+      "assets/catalog/anime-jujutsu-kaisen-sukuna/02.png",
+      "assets/catalog/anime-jujutsu-kaisen-sukuna/03.png",
+      "assets/catalog/anime-jujutsu-kaisen-sukuna/04.png",
+      "assets/catalog/anime-jujutsu-kaisen-sukuna/05.png",
+      "assets/catalog/anime-jujutsu-kaisen-sukuna/06.png"
+    ],
+    "description": "1/6 scale"
   },
   {
     "id": "anime-naruto-gaara",
@@ -577,6 +649,69 @@
     "description": "Dimensions:\nHeight: 13.98\" (35.5 cm)\nWidth: 13.58\" (34.5 cm)\nDepth: 8.35\" (21.2 cm)"
   },
   {
+    "id": "anime-pokemon-ash-ketchum-and-pikachu",
+    "name": "Ash Ketchum and Pikachu",
+    "mainCategory": "Anime",
+    "universe": "Pokemon",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Ash Ketchum and Pikachu",
+      "Pokemon",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Pokemon"
+    ],
+    "cover": "assets/catalog/anime-pokemon-ash-ketchum-and-pikachu/01.jpg",
+    "images": [
+      "assets/catalog/anime-pokemon-ash-ketchum-and-pikachu/02.jpg"
+    ],
+    "description": ""
+  },
+  {
+    "id": "anime-pokemon-jessie-rocket-team",
+    "name": "jessie rocket team",
+    "mainCategory": "Anime",
+    "universe": "Pokemon",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "jessie rocket team",
+      "Pokemon",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Pokemon"
+    ],
+    "cover": "assets/catalog/anime-pokemon-jessie-rocket-team/01.png",
+    "images": [
+      "assets/catalog/anime-pokemon-jessie-rocket-team/02.png",
+      "assets/catalog/anime-pokemon-jessie-rocket-team/03.png",
+      "assets/catalog/anime-pokemon-jessie-rocket-team/04.png"
+    ],
+    "description": "scale 1/6"
+  },
+  {
+    "id": "anime-pokemon-misty-and-psyduck",
+    "name": "Misty and Psyduck",
+    "mainCategory": "Anime",
+    "universe": "Pokemon",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Misty and Psyduck",
+      "Pokemon",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Pokemon"
+    ],
+    "cover": "assets/catalog/anime-pokemon-misty-and-psyduck/01.jpg",
+    "images": [
+      "assets/catalog/anime-pokemon-misty-and-psyduck/02.png",
+      "assets/catalog/anime-pokemon-misty-and-psyduck/03.jpg"
+    ],
+    "description": ""
+  },
+  {
     "id": "anime-samuraix-kenshin-himura",
     "name": "Kenshin Himura",
     "mainCategory": "Anime",
@@ -623,6 +758,30 @@
     "description": "Scale: 1/8\nDimensions: 195 x 177 x 274 mm"
   },
   {
+    "id": "anime-yugioh-dark-magician-girl",
+    "name": "Dark Magician Girl",
+    "mainCategory": "Anime",
+    "universe": "Yugioh",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Dark Magician Girl",
+      "Yugioh",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Yugioh"
+    ],
+    "cover": "assets/catalog/anime-yugioh-dark-magician-girl/01.png",
+    "images": [
+      "assets/catalog/anime-yugioh-dark-magician-girl/02.png",
+      "assets/catalog/anime-yugioh-dark-magician-girl/03.png",
+      "assets/catalog/anime-yugioh-dark-magician-girl/04.png",
+      "assets/catalog/anime-yugioh-dark-magician-girl/05.png",
+      "assets/catalog/anime-yugioh-dark-magician-girl/06.png"
+    ],
+    "description": "scale 1/6"
+  },
+  {
     "id": "anime-yugioh-yugi",
     "name": "Yugi",
     "mainCategory": "Anime",
@@ -643,6 +802,194 @@
       "assets/catalog/anime-yugioh-yugi/04.jpg"
     ],
     "description": "1_6, and 1_9 scale."
+  },
+  {
+    "id": "dc-bane",
+    "name": "Bane",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Bane",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-bane/01.jpg",
+    "images": [
+      "assets/catalog/dc-bane/02.jpg",
+      "assets/catalog/dc-bane/03.jpg",
+      "assets/catalog/dc-bane/04.jpg",
+      "assets/catalog/dc-bane/05.jpg",
+      "assets/catalog/dc-bane/06.jpg",
+      "assets/catalog/dc-bane/07.jpg",
+      "assets/catalog/dc-bane/08.jpg"
+    ],
+    "description": "1/6 scale"
+  },
+  {
+    "id": "dc-bane-2",
+    "name": "BANE 2",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "BANE 2",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-bane-2/01.jpg",
+    "images": [
+      "assets/catalog/dc-bane-2/02.jpg",
+      "assets/catalog/dc-bane-2/03.jpg",
+      "assets/catalog/dc-bane-2/04.jpg",
+      "assets/catalog/dc-bane-2/05.jpg",
+      "assets/catalog/dc-bane-2/06.jpg",
+      "assets/catalog/dc-bane-2/07.jpg"
+    ],
+    "description": "1/6"
+  },
+  {
+    "id": "dc-bane-and-batman",
+    "name": "BANE AND BATMAN",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "BANE AND BATMAN",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-bane-and-batman/01.jpg",
+    "images": [
+      "assets/catalog/dc-bane-and-batman/02.jpg",
+      "assets/catalog/dc-bane-and-batman/03.jpg",
+      "assets/catalog/dc-bane-and-batman/04.jpg",
+      "assets/catalog/dc-bane-and-batman/05.jpg"
+    ],
+    "description": "1/6"
+  },
+  {
+    "id": "dc-batman",
+    "name": "BATMAN",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "BATMAN",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-batman/01.jpg",
+    "images": [
+      "assets/catalog/dc-batman/02.jpg",
+      "assets/catalog/dc-batman/03.jpg",
+      "assets/catalog/dc-batman/04.jpg",
+      "assets/catalog/dc-batman/05.jpg"
+    ],
+    "description": "1-6th scale statue height - 33 cm"
+  },
+  {
+    "id": "dc-batman-2",
+    "name": "BATMAN 2",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "BATMAN 2",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-batman-2/01.jpg",
+    "images": [
+      "assets/catalog/dc-batman-2/02.jpg",
+      "assets/catalog/dc-batman-2/03.jpg",
+      "assets/catalog/dc-batman-2/04.jpg",
+      "assets/catalog/dc-batman-2/05.jpg",
+      "assets/catalog/dc-batman-2/06.jpg"
+    ],
+    "description": "1/6"
+  },
+  {
+    "id": "dc-catwoman-2",
+    "name": "CatWoman 2",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "CatWoman 2",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-catwoman-2/01.png",
+    "images": [
+      "assets/catalog/dc-catwoman-2/02.png",
+      "assets/catalog/dc-catwoman-2/03.png",
+      "assets/catalog/dc-catwoman-2/04.png",
+      "assets/catalog/dc-catwoman-2/05.png",
+      "assets/catalog/dc-catwoman-2/06.png",
+      "assets/catalog/dc-catwoman-2/07.png"
+    ],
+    "description": "scale 1/6"
+  },
+  {
+    "id": "dc-catwoman-and-batman",
+    "name": "CATWOMAN AND BATMAN",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "CATWOMAN AND BATMAN",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-catwoman-and-batman/01.jpg",
+    "images": [
+      "assets/catalog/dc-catwoman-and-batman/02.jpg",
+      "assets/catalog/dc-catwoman-and-batman/03.jpg",
+      "assets/catalog/dc-catwoman-and-batman/04.jpg",
+      "assets/catalog/dc-catwoman-and-batman/05.jpg",
+      "assets/catalog/dc-catwoman-and-batman/06.jpg",
+      "assets/catalog/dc-catwoman-and-batman/07.jpg",
+      "assets/catalog/dc-catwoman-and-batman/08.jpg"
+    ],
+    "description": "1/6"
+  },
+  {
+    "id": "dc-flash-gordon",
+    "name": "FLASH GORDON",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "FLASH GORDON",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-flash-gordon/01.jpg",
+    "images": [
+      "assets/catalog/dc-flash-gordon/02.jpg",
+      "assets/catalog/dc-flash-gordon/03.jpg",
+      "assets/catalog/dc-flash-gordon/04.jpg",
+      "assets/catalog/dc-flash-gordon/05.jpg",
+      "assets/catalog/dc-flash-gordon/06.jpg"
+    ],
+    "description": "1/6"
   },
   {
     "id": "dc-green-lantern",
@@ -684,6 +1031,32 @@
       "assets/catalog/dc-harley-trouble-in-pink/04.jpg",
       "assets/catalog/dc-harley-trouble-in-pink/05.jpg",
       "assets/catalog/dc-harley-trouble-in-pink/06.jpg"
+    ],
+    "description": "1/6"
+  },
+  {
+    "id": "dc-hellboy",
+    "name": "HELLBOY",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "HELLBOY",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-hellboy/01.jpg",
+    "images": [
+      "assets/catalog/dc-hellboy/02.jpg",
+      "assets/catalog/dc-hellboy/03.jpg",
+      "assets/catalog/dc-hellboy/04.jpg",
+      "assets/catalog/dc-hellboy/05.jpg",
+      "assets/catalog/dc-hellboy/06.jpg",
+      "assets/catalog/dc-hellboy/07.jpg",
+      "assets/catalog/dc-hellboy/08.jpg",
+      "assets/catalog/dc-hellboy/09.jpg"
     ],
     "description": "1/6"
   },
@@ -732,6 +1105,28 @@
     "description": "Height: 14.80\" / 37.6 cm\nWidth: 8.31\" / 21.1 cm\nDepth: 8.58\" / 21.8 cm"
   },
   {
+    "id": "dc-joker-3",
+    "name": "Joker 3",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Joker 3",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-joker-3/01.jpg",
+    "images": [
+      "assets/catalog/dc-joker-3/02.jpg",
+      "assets/catalog/dc-joker-3/03.jpg",
+      "assets/catalog/dc-joker-3/04.jpg",
+      "assets/catalog/dc-joker-3/05.jpg"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
     "id": "dc-joker-4",
     "name": "Joker 4",
     "mainCategory": "DC",
@@ -751,6 +1146,75 @@
       "assets/catalog/dc-joker-4/04.png"
     ],
     "description": "1/6th"
+  },
+  {
+    "id": "dc-joker-absolute",
+    "name": "JOKER ABSOLUTE",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "JOKER ABSOLUTE",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-joker-absolute/01.jpg",
+    "images": [
+      "assets/catalog/dc-joker-absolute/02.jpg",
+      "assets/catalog/dc-joker-absolute/03.jpg",
+      "assets/catalog/dc-joker-absolute/04.jpg",
+      "assets/catalog/dc-joker-absolute/05.jpg"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
+    "id": "dc-oswald-oz-cobb-the-penguin",
+    "name": "Oswald Oz Cobb (The Penguin)",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Oswald Oz Cobb (The Penguin)",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-oswald-oz-cobb-the-penguin/01.jpg",
+    "images": [
+      "assets/catalog/dc-oswald-oz-cobb-the-penguin/02.jpg",
+      "assets/catalog/dc-oswald-oz-cobb-the-penguin/03.jpg",
+      "assets/catalog/dc-oswald-oz-cobb-the-penguin/04.jpg",
+      "assets/catalog/dc-oswald-oz-cobb-the-penguin/05.jpg",
+      "assets/catalog/dc-oswald-oz-cobb-the-penguin/06.jpg"
+    ],
+    "description": "1/8"
+  },
+  {
+    "id": "dc-riddler",
+    "name": "RIDDLER",
+    "mainCategory": "DC",
+    "universe": "DC",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "RIDDLER",
+      "DC",
+      "DC",
+      "Diğer Oyunlar",
+      "dc"
+    ],
+    "cover": "assets/catalog/dc-riddler/01.jpg",
+    "images": [
+      "assets/catalog/dc-riddler/02.jpg",
+      "assets/catalog/dc-riddler/03.jpg",
+      "assets/catalog/dc-riddler/04.jpg",
+      "assets/catalog/dc-riddler/05.jpg",
+      "assets/catalog/dc-riddler/06.jpg",
+      "assets/catalog/dc-riddler/07.jpg"
+    ],
+    "description": "1/6"
   },
   {
     "id": "film-dizi-arcane-jinx",
@@ -912,6 +1376,29 @@
     "description": "1/6"
   },
   {
+    "id": "film-dizi-cthulhu-cthulhu",
+    "name": "Cthulhu",
+    "mainCategory": "Film-Dizi",
+    "universe": "Cthulhu",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Cthulhu",
+      "Cthulhu",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "Cthulhu"
+    ],
+    "cover": "assets/catalog/film-dizi-cthulhu-cthulhu/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-cthulhu-cthulhu/02.jpg",
+      "assets/catalog/film-dizi-cthulhu-cthulhu/03.jpg",
+      "assets/catalog/film-dizi-cthulhu-cthulhu/04.jpg",
+      "assets/catalog/film-dizi-cthulhu-cthulhu/05.jpg"
+    ],
+    "description": ""
+  },
+  {
     "id": "film-dizi-devilman",
     "name": "Devilman",
     "mainCategory": "Film-Dizi",
@@ -1019,6 +1506,52 @@
     "description": "Height: 15.24\" / 38.7 cm\nWidth: 9.49\" / 24.1 cm\nDepth: 8.66\" / 22.0 cm"
   },
   {
+    "id": "film-dizi-harry-potter-albus-dumbledore",
+    "name": "Albus Dumbledore",
+    "mainCategory": "Film-Dizi",
+    "universe": "Harry potter",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Albus Dumbledore",
+      "Harry potter",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "Harry potter"
+    ],
+    "cover": "assets/catalog/film-dizi-harry-potter-albus-dumbledore/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-harry-potter-albus-dumbledore/02.jpg",
+      "assets/catalog/film-dizi-harry-potter-albus-dumbledore/03.jpg",
+      "assets/catalog/film-dizi-harry-potter-albus-dumbledore/04.png",
+      "assets/catalog/film-dizi-harry-potter-albus-dumbledore/05.png",
+      "assets/catalog/film-dizi-harry-potter-albus-dumbledore/06.png",
+      "assets/catalog/film-dizi-harry-potter-albus-dumbledore/07.png"
+    ],
+    "description": "Scaled to 1-6, 1-10"
+  },
+  {
+    "id": "film-dizi-harry-potter-dobby",
+    "name": "Dobby",
+    "mainCategory": "Film-Dizi",
+    "universe": "Harry potter",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Dobby",
+      "Harry potter",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "Harry potter"
+    ],
+    "cover": "assets/catalog/film-dizi-harry-potter-dobby/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-harry-potter-dobby/02.jpg",
+      "assets/catalog/film-dizi-harry-potter-dobby/03.jpg"
+    ],
+    "description": "280mm"
+  },
+  {
     "id": "film-dizi-harry-potter-harry-potter",
     "name": "HARRY POTTER",
     "mainCategory": "Film-Dizi",
@@ -1039,6 +1572,28 @@
       "assets/catalog/film-dizi-harry-potter-harry-potter/04.png"
     ],
     "description": "1/6"
+  },
+  {
+    "id": "film-dizi-harry-potter-harry-potter-2",
+    "name": "Harry Potter 2",
+    "mainCategory": "Film-Dizi",
+    "universe": "Harry potter",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Harry Potter 2",
+      "Harry potter",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "Harry potter"
+    ],
+    "cover": "assets/catalog/film-dizi-harry-potter-harry-potter-2/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-harry-potter-harry-potter-2/02.jpg",
+      "assets/catalog/film-dizi-harry-potter-harry-potter-2/03.jpg",
+      "assets/catalog/film-dizi-harry-potter-harry-potter-2/04.jpg"
+    ],
+    "description": "252mm"
   },
   {
     "id": "film-dizi-harry-potter-hermione-granger",
@@ -1083,6 +1638,29 @@
       "assets/catalog/film-dizi-harry-potter-hermione-in-the-common-room/02.jpg"
     ],
     "description": "1/6th scale."
+  },
+  {
+    "id": "film-dizi-harry-potter-ron-weasley",
+    "name": "Ron Weasley",
+    "mainCategory": "Film-Dizi",
+    "universe": "Harry potter",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Ron Weasley",
+      "Harry potter",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "Harry potter"
+    ],
+    "cover": "assets/catalog/film-dizi-harry-potter-ron-weasley/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-harry-potter-ron-weasley/02.jpg",
+      "assets/catalog/film-dizi-harry-potter-ron-weasley/03.jpg",
+      "assets/catalog/film-dizi-harry-potter-ron-weasley/04.jpg",
+      "assets/catalog/film-dizi-harry-potter-ron-weasley/05.jpg"
+    ],
+    "description": "309 mm"
   },
   {
     "id": "film-dizi-harry-potter-voldemort",
@@ -1152,6 +1730,29 @@
     "description": "1_9 and 1_6 scale."
   },
   {
+    "id": "film-dizi-heman-heman-3",
+    "name": "HEMAN 3",
+    "mainCategory": "Film-Dizi",
+    "universe": "heman",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "HEMAN 3",
+      "heman",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "heman"
+    ],
+    "cover": "assets/catalog/film-dizi-heman-heman-3/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-heman-heman-3/02.jpg",
+      "assets/catalog/film-dizi-heman-heman-3/03.jpg",
+      "assets/catalog/film-dizi-heman-heman-3/04.jpg",
+      "assets/catalog/film-dizi-heman-heman-3/05.jpg"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
     "id": "film-dizi-heman-skeletor",
     "name": "Skeletor",
     "mainCategory": "Film-Dizi",
@@ -1175,6 +1776,53 @@
     "description": ""
   },
   {
+    "id": "film-dizi-heman-skeletor-master-of-the-universe",
+    "name": "Skeletor Master of the Universe",
+    "mainCategory": "Film-Dizi",
+    "universe": "heman",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Skeletor Master of the Universe",
+      "heman",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "heman"
+    ],
+    "cover": "assets/catalog/film-dizi-heman-skeletor-master-of-the-universe/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-heman-skeletor-master-of-the-universe/02.jpg",
+      "assets/catalog/film-dizi-heman-skeletor-master-of-the-universe/03.jpg",
+      "assets/catalog/film-dizi-heman-skeletor-master-of-the-universe/04.jpg",
+      "assets/catalog/film-dizi-heman-skeletor-master-of-the-universe/05.jpg"
+    ],
+    "description": "1/6 scale - height 40 cm"
+  },
+  {
+    "id": "film-dizi-hobbit-bilbo-baggins",
+    "name": "Bilbo Baggins",
+    "mainCategory": "Film-Dizi",
+    "universe": "Hobbit",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Bilbo Baggins",
+      "Hobbit",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "Hobbit"
+    ],
+    "cover": "assets/catalog/film-dizi-hobbit-bilbo-baggins/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-hobbit-bilbo-baggins/02.jpg",
+      "assets/catalog/film-dizi-hobbit-bilbo-baggins/03.jpg",
+      "assets/catalog/film-dizi-hobbit-bilbo-baggins/04.jpg",
+      "assets/catalog/film-dizi-hobbit-bilbo-baggins/05.jpg",
+      "assets/catalog/film-dizi-hobbit-bilbo-baggins/06.jpg"
+    ],
+    "description": "1/8, 1/6"
+  },
+  {
     "id": "film-dizi-hobbit-smaug",
     "name": "Smaug",
     "mainCategory": "Film-Dizi",
@@ -1192,7 +1840,14 @@
     "images": [
       "assets/catalog/film-dizi-hobbit-smaug/02.jpg",
       "assets/catalog/film-dizi-hobbit-smaug/03.jpg",
-      "assets/catalog/film-dizi-hobbit-smaug/04.jpg"
+      "assets/catalog/film-dizi-hobbit-smaug/04.jpg",
+      "assets/catalog/film-dizi-hobbit-smaug/05.jpg",
+      "assets/catalog/film-dizi-hobbit-smaug/06.jpg",
+      "assets/catalog/film-dizi-hobbit-smaug/07.jpg",
+      "assets/catalog/film-dizi-hobbit-smaug/08.jpg",
+      "assets/catalog/film-dizi-hobbit-smaug/09.jpg",
+      "assets/catalog/film-dizi-hobbit-smaug/10.jpg",
+      "assets/catalog/film-dizi-hobbit-smaug/11.jpg"
     ],
     "description": "1_9 and 1_12 scale."
   },
@@ -1216,6 +1871,51 @@
       "assets/catalog/film-dizi-hobbit-tauriel/03.webp"
     ],
     "description": "1/6th scale"
+  },
+  {
+    "id": "film-dizi-how-to-train-your-dragon-toothless",
+    "name": "Toothless",
+    "mainCategory": "Film-Dizi",
+    "universe": "How to Train Your Dragon",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Toothless",
+      "How to Train Your Dragon",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "How to Train Your Dragon"
+    ],
+    "cover": "assets/catalog/film-dizi-how-to-train-your-dragon-toothless/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-how-to-train-your-dragon-toothless/02.jpg",
+      "assets/catalog/film-dizi-how-to-train-your-dragon-toothless/03.jpg",
+      "assets/catalog/film-dizi-how-to-train-your-dragon-toothless/04.jpg",
+      "assets/catalog/film-dizi-how-to-train-your-dragon-toothless/05.jpg",
+      "assets/catalog/film-dizi-how-to-train-your-dragon-toothless/06.jpg",
+      "assets/catalog/film-dizi-how-to-train-your-dragon-toothless/07.jpg"
+    ],
+    "description": "1:32."
+  },
+  {
+    "id": "film-dizi-hunger-games-katniss-everdeen",
+    "name": "Katniss Everdeen",
+    "mainCategory": "Film-Dizi",
+    "universe": "Hunger Games",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Katniss Everdeen",
+      "Hunger Games",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "Hunger Games"
+    ],
+    "cover": "assets/catalog/film-dizi-hunger-games-katniss-everdeen/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-hunger-games-katniss-everdeen/02.jpg"
+    ],
+    "description": "Scale: 1/10\nH: 170mm\nW: 116mm\nL: 112mm"
   },
   {
     "id": "film-dizi-indiana-jones-indiana-jones",
@@ -1374,6 +2074,26 @@
     "description": "Full Statue (1/6) Dimensions\nHeight: 13.70\" / 34.8 cm\nWidth: 9.02\" / 22.9 cm\nDepth: 7.44\" / 18.9 cm"
   },
   {
+    "id": "film-dizi-john-wick-john-wick",
+    "name": "John Wick",
+    "mainCategory": "Film-Dizi",
+    "universe": "John Wick",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "John Wick",
+      "John Wick",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "John Wick"
+    ],
+    "cover": "assets/catalog/film-dizi-john-wick-john-wick/01.png",
+    "images": [
+      "assets/catalog/film-dizi-john-wick-john-wick/02.png"
+    ],
+    "description": "18cm"
+  },
+  {
     "id": "film-dizi-lara-croft-4",
     "name": "Lara Croft 4",
     "mainCategory": "Film-Dizi",
@@ -1393,6 +2113,31 @@
       "assets/catalog/film-dizi-lara-croft-4/04.jpg"
     ],
     "description": "Scale: 1/8\nDimensions (W x D x H): 140 x 178 x 328 mm"
+  },
+  {
+    "id": "film-dizi-looney-tunes-lola-bunny",
+    "name": "LOLA BUNNY",
+    "mainCategory": "Film-Dizi",
+    "universe": "looney tunes",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "LOLA BUNNY",
+      "looney tunes",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "looney tunes"
+    ],
+    "cover": "assets/catalog/film-dizi-looney-tunes-lola-bunny/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-looney-tunes-lola-bunny/02.jpg",
+      "assets/catalog/film-dizi-looney-tunes-lola-bunny/03.jpg",
+      "assets/catalog/film-dizi-looney-tunes-lola-bunny/04.jpg",
+      "assets/catalog/film-dizi-looney-tunes-lola-bunny/05.jpg",
+      "assets/catalog/film-dizi-looney-tunes-lola-bunny/06.jpg",
+      "assets/catalog/film-dizi-looney-tunes-lola-bunny/07.jpg"
+    ],
+    "description": "1/6 scale  30 cm"
   },
   {
     "id": "film-dizi-lord-of-the-rings-aragorn",
@@ -1459,6 +2204,30 @@
       "assets/catalog/film-dizi-lotr-aragorn-2/03.png"
     ],
     "description": "1_6"
+  },
+  {
+    "id": "film-dizi-lotr-aragorn-3",
+    "name": "Aragorn 3",
+    "mainCategory": "Film-Dizi",
+    "universe": "LOTR",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Aragorn 3",
+      "LOTR",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "LOTR"
+    ],
+    "cover": "assets/catalog/film-dizi-lotr-aragorn-3/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-lotr-aragorn-3/02.jpg",
+      "assets/catalog/film-dizi-lotr-aragorn-3/03.jpg",
+      "assets/catalog/film-dizi-lotr-aragorn-3/04.jpg",
+      "assets/catalog/film-dizi-lotr-aragorn-3/05.jpg",
+      "assets/catalog/film-dizi-lotr-aragorn-3/06.jpg"
+    ],
+    "description": "1/8"
   },
   {
     "id": "film-dizi-lotr-arwen",
@@ -1930,6 +2699,55 @@
     "description": "Height: 11.81\" / 30 cm\nWidth: 10.98\" / 27.9 cm\nDepth: 8.58\" / 21.8 cm"
   },
   {
+    "id": "film-dizi-scooby-doo-daphne",
+    "name": "Daphne",
+    "mainCategory": "Film-Dizi",
+    "universe": "scooby doo",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Daphne",
+      "scooby doo",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "scooby doo"
+    ],
+    "cover": "assets/catalog/film-dizi-scooby-doo-daphne/01.png",
+    "images": [
+      "assets/catalog/film-dizi-scooby-doo-daphne/02.png",
+      "assets/catalog/film-dizi-scooby-doo-daphne/03.png",
+      "assets/catalog/film-dizi-scooby-doo-daphne/04.png",
+      "assets/catalog/film-dizi-scooby-doo-daphne/05.png",
+      "assets/catalog/film-dizi-scooby-doo-daphne/06.png",
+      "assets/catalog/film-dizi-scooby-doo-daphne/07.png"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
+    "id": "film-dizi-scooby-doo-velma",
+    "name": "velma",
+    "mainCategory": "Film-Dizi",
+    "universe": "scooby doo",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "velma",
+      "scooby doo",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "scooby doo"
+    ],
+    "cover": "assets/catalog/film-dizi-scooby-doo-velma/01.png",
+    "images": [
+      "assets/catalog/film-dizi-scooby-doo-velma/02.png",
+      "assets/catalog/film-dizi-scooby-doo-velma/03.png",
+      "assets/catalog/film-dizi-scooby-doo-velma/04.png",
+      "assets/catalog/film-dizi-scooby-doo-velma/05.png",
+      "assets/catalog/film-dizi-scooby-doo-velma/06.png"
+    ],
+    "description": "1/6 scale"
+  },
+  {
     "id": "film-dizi-spawn-spawn",
     "name": "Spawn",
     "mainCategory": "Film-Dizi",
@@ -1950,6 +2768,30 @@
       "assets/catalog/film-dizi-spawn-spawn/04.jpg"
     ],
     "description": "1_6, 1_9 scale."
+  },
+  {
+    "id": "film-dizi-spawn-spawn-2",
+    "name": "SPAWN 2",
+    "mainCategory": "Film-Dizi",
+    "universe": "Spawn",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "SPAWN 2",
+      "Spawn",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "Spawn"
+    ],
+    "cover": "assets/catalog/film-dizi-spawn-spawn-2/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-spawn-spawn-2/02.jpg",
+      "assets/catalog/film-dizi-spawn-spawn-2/03.jpg",
+      "assets/catalog/film-dizi-spawn-spawn-2/04.jpg",
+      "assets/catalog/film-dizi-spawn-spawn-2/05.jpg",
+      "assets/catalog/film-dizi-spawn-spawn-2/06.jpg"
+    ],
+    "description": "1/6 Scale"
   },
   {
     "id": "film-dizi-star-wars-ahsoka-tano-vs-darth-maul-diorama",
@@ -2034,11 +2876,15 @@
       "film-dizi",
       "Star Wars"
     ],
-    "cover": "assets/catalog/film-dizi-star-wars-darth-maul/01.png",
+    "cover": "assets/catalog/film-dizi-star-wars-darth-maul/01.jpg",
     "images": [
       "assets/catalog/film-dizi-star-wars-darth-maul/02.png",
-      "assets/catalog/film-dizi-star-wars-darth-maul/03.png",
-      "assets/catalog/film-dizi-star-wars-darth-maul/04.png"
+      "assets/catalog/film-dizi-star-wars-darth-maul/03.jpg",
+      "assets/catalog/film-dizi-star-wars-darth-maul/04.png",
+      "assets/catalog/film-dizi-star-wars-darth-maul/05.jpg",
+      "assets/catalog/film-dizi-star-wars-darth-maul/06.png",
+      "assets/catalog/film-dizi-star-wars-darth-maul/07.jpg",
+      "assets/catalog/film-dizi-star-wars-darth-maul/08.png"
     ],
     "description": "1/6th"
   },
@@ -2528,6 +3374,72 @@
     "description": "Height: 16.89\" / 42.9 cm\n\nWidth: 8.39\" / 21.3 cm\n\nDepth: 7.40\" / 18.8 cm"
   },
   {
+    "id": "film-dizi-transformers-bumblebee",
+    "name": "Bumblebee",
+    "mainCategory": "Film-Dizi",
+    "universe": "transformers",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Bumblebee",
+      "transformers",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "transformers"
+    ],
+    "cover": "assets/catalog/film-dizi-transformers-bumblebee/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-transformers-bumblebee/02.jpg",
+      "assets/catalog/film-dizi-transformers-bumblebee/03.jpg",
+      "assets/catalog/film-dizi-transformers-bumblebee/04.jpg",
+      "assets/catalog/film-dizi-transformers-bumblebee/05.jpg",
+      "assets/catalog/film-dizi-transformers-bumblebee/06.jpg",
+      "assets/catalog/film-dizi-transformers-bumblebee/07.jpg",
+      "assets/catalog/film-dizi-transformers-bumblebee/08.jpg",
+      "assets/catalog/film-dizi-transformers-bumblebee/09.jpg"
+    ],
+    "description": "1/18 scale"
+  },
+  {
+    "id": "film-dizi-transformers-optimus-prime",
+    "name": "Optimus Prime",
+    "mainCategory": "Film-Dizi",
+    "universe": "transformers",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Optimus Prime",
+      "transformers",
+      "Film-Dizi",
+      "Diğer Oyunlar",
+      "film-dizi",
+      "transformers"
+    ],
+    "cover": "assets/catalog/film-dizi-transformers-optimus-prime/01.jpg",
+    "images": [
+      "assets/catalog/film-dizi-transformers-optimus-prime/02.jpg",
+      "assets/catalog/film-dizi-transformers-optimus-prime/03.jpg",
+      "assets/catalog/film-dizi-transformers-optimus-prime/04.jpg"
+    ],
+    "description": "1/18 scale - height 73 cm"
+  },
+  {
+    "id": "general-flashing-banana",
+    "name": "Flashing Banana",
+    "mainCategory": "Oyun",
+    "universe": "general",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Flashing Banana",
+      "general",
+      "Oyun",
+      "Diğer Oyunlar",
+      "general"
+    ],
+    "cover": "assets/catalog/general-flashing-banana/01.jpg",
+    "images": [],
+    "description": ""
+  },
+  {
     "id": "marvel-black-panther",
     "name": "Black panther",
     "mainCategory": "Marvel",
@@ -2545,7 +3457,30 @@
       "assets/catalog/marvel-black-panther/02.jpg",
       "assets/catalog/marvel-black-panther/03.jpg"
     ],
-    "description": "1/6"
+    "description": "1/6 scale"
+  },
+  {
+    "id": "marvel-black-panther-2",
+    "name": "Black Panther 2",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Black Panther 2",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-black-panther-2/01.jpg",
+    "images": [
+      "assets/catalog/marvel-black-panther-2/02.jpg",
+      "assets/catalog/marvel-black-panther-2/03.jpg",
+      "assets/catalog/marvel-black-panther-2/04.jpg",
+      "assets/catalog/marvel-black-panther-2/05.jpg",
+      "assets/catalog/marvel-black-panther-2/06.jpg"
+    ],
+    "description": "1/6 scale - height 39 cm"
   },
   {
     "id": "marvel-captain-america",
@@ -2612,6 +3547,52 @@
       "assets/catalog/marvel-deadpool/03.jpg"
     ],
     "description": "1_9 and 1_6 scale."
+  },
+  {
+    "id": "marvel-deadpool-2",
+    "name": "Deadpool 2",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Deadpool 2",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-deadpool-2/01.jpg",
+    "images": [
+      "assets/catalog/marvel-deadpool-2/02.jpg",
+      "assets/catalog/marvel-deadpool-2/03.jpg",
+      "assets/catalog/marvel-deadpool-2/04.jpg",
+      "assets/catalog/marvel-deadpool-2/05.jpg",
+      "assets/catalog/marvel-deadpool-2/06.jpg"
+    ],
+    "description": "1/6 scale"
+  },
+  {
+    "id": "marvel-doc-ock",
+    "name": "DOC OCK",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "DOC OCK",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-doc-ock/01.jpg",
+    "images": [
+      "assets/catalog/marvel-doc-ock/02.jpg",
+      "assets/catalog/marvel-doc-ock/03.jpg",
+      "assets/catalog/marvel-doc-ock/04.jpg",
+      "assets/catalog/marvel-doc-ock/05.jpg",
+      "assets/catalog/marvel-doc-ock/06.jpg"
+    ],
+    "description": "1/6 Scale"
   },
   {
     "id": "marvel-doctor-strange",
@@ -2698,6 +3679,30 @@
     "description": "Dimensions:\nHeight: 14.21\" (36.1 cm)\nWidth: 9.84\" (25.0 cm)\nDepth: 7.17\" (18.2 cm)"
   },
   {
+    "id": "marvel-erik-killmonger",
+    "name": "Erik Killmonger",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Erik Killmonger",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-erik-killmonger/01.jpg",
+    "images": [
+      "assets/catalog/marvel-erik-killmonger/02.jpg",
+      "assets/catalog/marvel-erik-killmonger/03.jpg",
+      "assets/catalog/marvel-erik-killmonger/04.jpg",
+      "assets/catalog/marvel-erik-killmonger/05.jpg",
+      "assets/catalog/marvel-erik-killmonger/06.jpg",
+      "assets/catalog/marvel-erik-killmonger/07.jpg"
+    ],
+    "description": "1/6 scale - height 37 cm"
+  },
+  {
     "id": "marvel-gambit",
     "name": "Gambit",
     "mainCategory": "Marvel",
@@ -2718,6 +3723,96 @@
       "assets/catalog/marvel-gambit/05.jpg"
     ],
     "description": "1_6, 1_9 scale."
+  },
+  {
+    "id": "marvel-gambit-2",
+    "name": "Gambit 2",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Gambit 2",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-gambit-2/01.jpg",
+    "images": [
+      "assets/catalog/marvel-gambit-2/02.jpg",
+      "assets/catalog/marvel-gambit-2/03.jpg",
+      "assets/catalog/marvel-gambit-2/04.jpg",
+      "assets/catalog/marvel-gambit-2/05.jpg",
+      "assets/catalog/marvel-gambit-2/06.jpg"
+    ],
+    "description": "1/6 scale – Height: 38 cm"
+  },
+  {
+    "id": "marvel-green-goblin",
+    "name": "Green Goblin",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Green Goblin",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-green-goblin/01.jpg",
+    "images": [
+      "assets/catalog/marvel-green-goblin/02.jpg",
+      "assets/catalog/marvel-green-goblin/03.jpg",
+      "assets/catalog/marvel-green-goblin/04.jpg",
+      "assets/catalog/marvel-green-goblin/05.jpg"
+    ],
+    "description": "1/8"
+  },
+  {
+    "id": "marvel-groot-and-rocket-diorama",
+    "name": "Groot and Rocket Diorama",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Groot and Rocket Diorama",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-groot-and-rocket-diorama/01.jpg",
+    "images": [
+      "assets/catalog/marvel-groot-and-rocket-diorama/02.jpg",
+      "assets/catalog/marvel-groot-and-rocket-diorama/03.jpg",
+      "assets/catalog/marvel-groot-and-rocket-diorama/04.jpg",
+      "assets/catalog/marvel-groot-and-rocket-diorama/05.jpg",
+      "assets/catalog/marvel-groot-and-rocket-diorama/06.jpg"
+    ],
+    "description": "1/6 scale"
+  },
+  {
+    "id": "marvel-hulkbuster",
+    "name": "HULKBUSTER",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "HULKBUSTER",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-hulkbuster/01.jpg",
+    "images": [
+      "assets/catalog/marvel-hulkbuster/02.jpg",
+      "assets/catalog/marvel-hulkbuster/03.jpg",
+      "assets/catalog/marvel-hulkbuster/04.jpg",
+      "assets/catalog/marvel-hulkbuster/05.jpg"
+    ],
+    "description": "1/6 Scale"
   },
   {
     "id": "marvel-iron-man",
@@ -2825,6 +3920,28 @@
     "description": "- Height: 11.6\" (29.5 cm)\n- Width: 7.2\" (18.4 cm)\n- Depth: 5.5\" (14.0 cm)"
   },
   {
+    "id": "marvel-loki",
+    "name": "LOKI",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "LOKI",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-loki/01.jpg",
+    "images": [
+      "assets/catalog/marvel-loki/02.jpg",
+      "assets/catalog/marvel-loki/03.jpg",
+      "assets/catalog/marvel-loki/04.jpg",
+      "assets/catalog/marvel-loki/05.jpg"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
     "id": "marvel-magneto",
     "name": "Magneto",
     "mainCategory": "Marvel",
@@ -2865,6 +3982,29 @@
     "description": "1_9 and 1_6 scale."
   },
   {
+    "id": "marvel-odin",
+    "name": "ODIN",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "ODIN",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-odin/01.jpg",
+    "images": [
+      "assets/catalog/marvel-odin/02.jpg",
+      "assets/catalog/marvel-odin/03.jpg",
+      "assets/catalog/marvel-odin/04.jpg",
+      "assets/catalog/marvel-odin/05.jpg",
+      "assets/catalog/marvel-odin/06.jpg"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
     "id": "marvel-rhino",
     "name": "Rhino",
     "mainCategory": "Marvel",
@@ -2884,6 +4024,49 @@
       "assets/catalog/marvel-rhino/04.jpg"
     ],
     "description": "Dimensions:\n- Height: 12.2\" (31.0 cm)\n- Width: 13.2\" (33.5 cm)\n- Depth: 12.2\" (31.0 cm)"
+  },
+  {
+    "id": "marvel-rogue1",
+    "name": "ROGUE1",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "ROGUE1",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-rogue1/01.jpg",
+    "images": [
+      "assets/catalog/marvel-rogue1/02.jpg",
+      "assets/catalog/marvel-rogue1/03.jpg",
+      "assets/catalog/marvel-rogue1/04.jpg",
+      "assets/catalog/marvel-rogue1/05.jpg"
+    ],
+    "description": "1:6 scale"
+  },
+  {
+    "id": "marvel-sabrethooth",
+    "name": "SABRETHOOTH",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "SABRETHOOTH",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-sabrethooth/01.jpg",
+    "images": [
+      "assets/catalog/marvel-sabrethooth/02.jpg",
+      "assets/catalog/marvel-sabrethooth/03.jpg",
+      "assets/catalog/marvel-sabrethooth/04.jpg"
+    ],
+    "description": "1-6th scale statue height - 33cm"
   },
   {
     "id": "marvel-sandman",
@@ -2990,6 +4173,50 @@
     "description": "Dimensions:\n- Height: 13.78\" (35.0 cm)\n- Width: 12.80\" (32.5 cm)\n- Depth: 10.04\" (25.5 cm)"
   },
   {
+    "id": "marvel-spiderman-diorama",
+    "name": "Spiderman Diorama",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Spiderman Diorama",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-spiderman-diorama/01.jpg",
+    "images": [
+      "assets/catalog/marvel-spiderman-diorama/02.jpg",
+      "assets/catalog/marvel-spiderman-diorama/03.jpg",
+      "assets/catalog/marvel-spiderman-diorama/04.jpg",
+      "assets/catalog/marvel-spiderman-diorama/05.jpg",
+      "assets/catalog/marvel-spiderman-diorama/06.jpg"
+    ],
+    "description": "1/6 scale - height 38cm"
+  },
+  {
+    "id": "marvel-spiderpunk",
+    "name": "SPIDERPUNK",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "SPIDERPUNK",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-spiderpunk/01.jpg",
+    "images": [
+      "assets/catalog/marvel-spiderpunk/02.jpg",
+      "assets/catalog/marvel-spiderpunk/03.jpg",
+      "assets/catalog/marvel-spiderpunk/04.jpg"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
     "id": "marvel-stan-lee",
     "name": "STAN LEE",
     "mainCategory": "Marvel",
@@ -3060,6 +4287,27 @@
     "description": "Dimensions: Full Statue\nHeight: 18.86\" / 47.9 cm\nDepth: 7.87\" / 20.0 cm\nWidth: 7.20\" / 18.29 cm"
   },
   {
+    "id": "marvel-the-lizard",
+    "name": "The Lizard",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "The Lizard",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-the-lizard/01.png",
+    "images": [
+      "assets/catalog/marvel-the-lizard/02.png",
+      "assets/catalog/marvel-the-lizard/03.png",
+      "assets/catalog/marvel-the-lizard/04.png"
+    ],
+    "description": "1/6"
+  },
+  {
     "id": "marvel-the-symbiote",
     "name": "The Symbiote",
     "mainCategory": "Marvel",
@@ -3079,6 +4327,50 @@
       "assets/catalog/marvel-the-symbiote/04.png"
     ],
     "description": ""
+  },
+  {
+    "id": "marvel-the-thing",
+    "name": "THE THING",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "THE THING",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-the-thing/01.jpg",
+    "images": [
+      "assets/catalog/marvel-the-thing/02.jpg",
+      "assets/catalog/marvel-the-thing/03.jpg",
+      "assets/catalog/marvel-the-thing/04.jpg"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
+    "id": "marvel-thor",
+    "name": "THOR",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "THOR",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-thor/01.jpg",
+    "images": [
+      "assets/catalog/marvel-thor/02.jpg",
+      "assets/catalog/marvel-thor/03.jpg",
+      "assets/catalog/marvel-thor/04.jpg",
+      "assets/catalog/marvel-thor/05.jpg",
+      "assets/catalog/marvel-thor/06.jpg"
+    ],
+    "description": "1/6 Scale"
   },
   {
     "id": "marvel-tony-stark",
@@ -3101,6 +4393,54 @@
       "assets/catalog/marvel-tony-stark/05.jpg"
     ],
     "description": "Height: 15.63\" / 39.7 cm\nWidth: 9.13\" / 23.2 cm\nDepth: 9.25\" / 23.5 cm"
+  },
+  {
+    "id": "marvel-wolverine",
+    "name": "Wolverine",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Wolverine",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-wolverine/01.jpg",
+    "images": [
+      "assets/catalog/marvel-wolverine/02.jpg",
+      "assets/catalog/marvel-wolverine/03.jpg",
+      "assets/catalog/marvel-wolverine/04.jpg",
+      "assets/catalog/marvel-wolverine/05.jpg",
+      "assets/catalog/marvel-wolverine/06.jpg",
+      "assets/catalog/marvel-wolverine/07.jpg",
+      "assets/catalog/marvel-wolverine/08.jpg"
+    ],
+    "description": "1/6 scale - statue height 26 cm"
+  },
+  {
+    "id": "marvel-wonderwoman",
+    "name": "Wonderwoman",
+    "mainCategory": "Marvel",
+    "universe": "Marvel",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Wonderwoman",
+      "Marvel",
+      "Marvel",
+      "Diğer Oyunlar",
+      "marvel"
+    ],
+    "cover": "assets/catalog/marvel-wonderwoman/01.jpg",
+    "images": [
+      "assets/catalog/marvel-wonderwoman/02.jpg",
+      "assets/catalog/marvel-wonderwoman/03.jpg",
+      "assets/catalog/marvel-wonderwoman/04.jpg",
+      "assets/catalog/marvel-wonderwoman/05.jpg",
+      "assets/catalog/marvel-wonderwoman/06.jpg"
+    ],
+    "description": "1/6 scale"
   },
   {
     "id": "oyun-assassin-s-creed-edward-kenway",
@@ -3525,6 +4865,53 @@
     "description": "1/6th and 1/10th scale"
   },
   {
+    "id": "oyun-crash-bandicoot-crash-bandicoot",
+    "name": "Crash Bandicoot",
+    "mainCategory": "Oyun",
+    "universe": "Crash Bandicoot",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Crash Bandicoot",
+      "Crash Bandicoot",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Crash Bandicoot"
+    ],
+    "cover": "assets/catalog/oyun-crash-bandicoot-crash-bandicoot/01.png",
+    "images": [
+      "assets/catalog/oyun-crash-bandicoot-crash-bandicoot/02.png",
+      "assets/catalog/oyun-crash-bandicoot-crash-bandicoot/03.png",
+      "assets/catalog/oyun-crash-bandicoot-crash-bandicoot/04.png",
+      "assets/catalog/oyun-crash-bandicoot-crash-bandicoot/05.png"
+    ],
+    "description": "Full: 1:10 scale - split"
+  },
+  {
+    "id": "oyun-crash-bandicoot-dr-neo-cortex",
+    "name": "Dr. Neo Cortex",
+    "mainCategory": "Oyun",
+    "universe": "Crash Bandicoot",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Dr. Neo Cortex",
+      "Crash Bandicoot",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Crash Bandicoot"
+    ],
+    "cover": "assets/catalog/oyun-crash-bandicoot-dr-neo-cortex/01.png",
+    "images": [
+      "assets/catalog/oyun-crash-bandicoot-dr-neo-cortex/02.png",
+      "assets/catalog/oyun-crash-bandicoot-dr-neo-cortex/03.png",
+      "assets/catalog/oyun-crash-bandicoot-dr-neo-cortex/04.png",
+      "assets/catalog/oyun-crash-bandicoot-dr-neo-cortex/05.png",
+      "assets/catalog/oyun-crash-bandicoot-dr-neo-cortex/06.png"
+    ],
+    "description": "1:10 scale"
+  },
+  {
     "id": "oyun-dark-souls-crossbreed-priscilla",
     "name": "Crossbreed Priscilla",
     "mainCategory": "Oyun",
@@ -3837,6 +5224,165 @@
       "assets/catalog/oyun-diablo-iv-lilith/05.jpg"
     ],
     "description": "Scale: 1/8\nDimensions: 240 x 202 x 306 mm"
+  },
+  {
+    "id": "oyun-diablo-iv-lilith-2",
+    "name": "Lilith 2",
+    "mainCategory": "Oyun",
+    "universe": "Diablo IV",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Lilith 2",
+      "Diablo IV",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Diablo IV"
+    ],
+    "cover": "assets/catalog/oyun-diablo-iv-lilith-2/01.png",
+    "images": [
+      "assets/catalog/oyun-diablo-iv-lilith-2/02.png"
+    ],
+    "description": "1/10"
+  },
+  {
+    "id": "oyun-dota-2-crystal-maiden",
+    "name": "CRYSTAL MAIDEN",
+    "mainCategory": "Oyun",
+    "universe": "Dota 2",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "CRYSTAL MAIDEN",
+      "Dota 2",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Dota 2"
+    ],
+    "cover": "assets/catalog/oyun-dota-2-crystal-maiden/01.png",
+    "images": [
+      "assets/catalog/oyun-dota-2-crystal-maiden/02.png",
+      "assets/catalog/oyun-dota-2-crystal-maiden/03.png",
+      "assets/catalog/oyun-dota-2-crystal-maiden/04.png",
+      "assets/catalog/oyun-dota-2-crystal-maiden/05.png"
+    ],
+    "description": "1:8 Scale\n27cm"
+  },
+  {
+    "id": "oyun-dota-2-juggernaut-ancient-exile",
+    "name": "JUGGERNAUT ANCIENT EXILE",
+    "mainCategory": "Oyun",
+    "universe": "Dota 2",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "JUGGERNAUT ANCIENT EXILE",
+      "Dota 2",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Dota 2"
+    ],
+    "cover": "assets/catalog/oyun-dota-2-juggernaut-ancient-exile/01.png",
+    "images": [
+      "assets/catalog/oyun-dota-2-juggernaut-ancient-exile/02.png",
+      "assets/catalog/oyun-dota-2-juggernaut-ancient-exile/03.png",
+      "assets/catalog/oyun-dota-2-juggernaut-ancient-exile/04.png"
+    ],
+    "description": "1:8 Scale\n29cm"
+  },
+  {
+    "id": "oyun-dota-2-lion",
+    "name": "Lion",
+    "mainCategory": "Oyun",
+    "universe": "Dota 2",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Lion",
+      "Dota 2",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Dota 2"
+    ],
+    "cover": "assets/catalog/oyun-dota-2-lion/01.png",
+    "images": [
+      "assets/catalog/oyun-dota-2-lion/02.png",
+      "assets/catalog/oyun-dota-2-lion/03.png",
+      "assets/catalog/oyun-dota-2-lion/04.png",
+      "assets/catalog/oyun-dota-2-lion/05.png"
+    ],
+    "description": "1:8 Scale\n30cm"
+  },
+  {
+    "id": "oyun-dota-2-night-stalker",
+    "name": "Night Stalker",
+    "mainCategory": "Oyun",
+    "universe": "Dota 2",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Night Stalker",
+      "Dota 2",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Dota 2"
+    ],
+    "cover": "assets/catalog/oyun-dota-2-night-stalker/01.png",
+    "images": [
+      "assets/catalog/oyun-dota-2-night-stalker/02.png",
+      "assets/catalog/oyun-dota-2-night-stalker/03.png",
+      "assets/catalog/oyun-dota-2-night-stalker/04.png"
+    ],
+    "description": "1:8 Scale\n26cm"
+  },
+  {
+    "id": "oyun-dota-2-phantom-assassin-arcana-set",
+    "name": "Phantom Assassin - Arcana set",
+    "mainCategory": "Oyun",
+    "universe": "Dota 2",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Phantom Assassin - Arcana set",
+      "Dota 2",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Dota 2"
+    ],
+    "cover": "assets/catalog/oyun-dota-2-phantom-assassin-arcana-set/01.png",
+    "images": [
+      "assets/catalog/oyun-dota-2-phantom-assassin-arcana-set/02.png",
+      "assets/catalog/oyun-dota-2-phantom-assassin-arcana-set/03.png",
+      "assets/catalog/oyun-dota-2-phantom-assassin-arcana-set/04.png",
+      "assets/catalog/oyun-dota-2-phantom-assassin-arcana-set/05.png"
+    ],
+    "description": "1:8 Scale\n28cm"
+  },
+  {
+    "id": "oyun-dota-2-pudge",
+    "name": "Pudge",
+    "mainCategory": "Oyun",
+    "universe": "Dota 2",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Pudge",
+      "Dota 2",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Dota 2"
+    ],
+    "cover": "assets/catalog/oyun-dota-2-pudge/01.png",
+    "images": [
+      "assets/catalog/oyun-dota-2-pudge/02.png",
+      "assets/catalog/oyun-dota-2-pudge/03.png",
+      "assets/catalog/oyun-dota-2-pudge/04.png",
+      "assets/catalog/oyun-dota-2-pudge/05.png",
+      "assets/catalog/oyun-dota-2-pudge/06.png",
+      "assets/catalog/oyun-dota-2-pudge/07.png",
+      "assets/catalog/oyun-dota-2-pudge/08.png"
+    ],
+    "description": "1:8 Scale\n29cm"
   },
   {
     "id": "oyun-elden-ring-blaidd-2",
@@ -4364,6 +5910,28 @@
     "description": "1_6, 1_9 scale"
   },
   {
+    "id": "oyun-god-of-war-kratos-6",
+    "name": "KRATOS 6",
+    "mainCategory": "Oyun",
+    "universe": "God of War",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "KRATOS 6",
+      "God of War",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "God of War"
+    ],
+    "cover": "assets/catalog/oyun-god-of-war-kratos-6/01.jpg",
+    "images": [
+      "assets/catalog/oyun-god-of-war-kratos-6/02.jpg",
+      "assets/catalog/oyun-god-of-war-kratos-6/03.jpg",
+      "assets/catalog/oyun-god-of-war-kratos-6/04.jpg"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
     "id": "oyun-god-of-war-kratos2",
     "name": "Kratos2",
     "mainCategory": "Oyun",
@@ -4432,6 +6000,142 @@
     "description": "Statue Dimensions (1/6)\nHeight: 10.43\" / 26.5 cm\nWidth: 6.45\" / 16.4 cm\nDepth: 10.35\" / 26.3 cm"
   },
   {
+    "id": "oyun-gta-iv-cousin",
+    "name": "Cousin",
+    "mainCategory": "Oyun",
+    "universe": "GTA IV",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Cousin",
+      "GTA IV",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "GTA IV"
+    ],
+    "cover": "assets/catalog/oyun-gta-iv-cousin/01.png",
+    "images": [
+      "assets/catalog/oyun-gta-iv-cousin/02.png",
+      "assets/catalog/oyun-gta-iv-cousin/03.png",
+      "assets/catalog/oyun-gta-iv-cousin/04.png"
+    ],
+    "description": ""
+  },
+  {
+    "id": "oyun-gta-san-andreas-cj",
+    "name": "CJ",
+    "mainCategory": "Oyun",
+    "universe": "GTA San andreas",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "CJ",
+      "GTA San andreas",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "GTA San andreas"
+    ],
+    "cover": "assets/catalog/oyun-gta-san-andreas-cj/01.jpg",
+    "images": [
+      "assets/catalog/oyun-gta-san-andreas-cj/02.jpg",
+      "assets/catalog/oyun-gta-san-andreas-cj/03.jpg",
+      "assets/catalog/oyun-gta-san-andreas-cj/04.jpg",
+      "assets/catalog/oyun-gta-san-andreas-cj/05.jpg"
+    ],
+    "description": "Statue Dimensions (1/6)\nHeight: 10.43\" / 26.5 cm\nWidth: 6.45\" / 16.4 cm\nDepth: 10.35\" / 26.3 cm"
+  },
+  {
+    "id": "oyun-gta-v-franklin",
+    "name": "Franklin",
+    "mainCategory": "Oyun",
+    "universe": "GTA V",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Franklin",
+      "GTA V",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "GTA V"
+    ],
+    "cover": "assets/catalog/oyun-gta-v-franklin/01.jpg",
+    "images": [
+      "assets/catalog/oyun-gta-v-franklin/02.jpg",
+      "assets/catalog/oyun-gta-v-franklin/03.jpg",
+      "assets/catalog/oyun-gta-v-franklin/04.jpg",
+      "assets/catalog/oyun-gta-v-franklin/05.jpg"
+    ],
+    "description": "1-10, 1-6"
+  },
+  {
+    "id": "oyun-gta-v-michael",
+    "name": "Michael",
+    "mainCategory": "Oyun",
+    "universe": "GTA V",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Michael",
+      "GTA V",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "GTA V"
+    ],
+    "cover": "assets/catalog/oyun-gta-v-michael/01.jpg",
+    "images": [
+      "assets/catalog/oyun-gta-v-michael/02.jpg",
+      "assets/catalog/oyun-gta-v-michael/03.jpg",
+      "assets/catalog/oyun-gta-v-michael/04.jpg",
+      "assets/catalog/oyun-gta-v-michael/05.jpg"
+    ],
+    "description": "1-10, 1-6"
+  },
+  {
+    "id": "oyun-gta-v-trevor",
+    "name": "Trevor",
+    "mainCategory": "Oyun",
+    "universe": "GTA V",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Trevor",
+      "GTA V",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "GTA V"
+    ],
+    "cover": "assets/catalog/oyun-gta-v-trevor/01.jpg",
+    "images": [
+      "assets/catalog/oyun-gta-v-trevor/02.jpg",
+      "assets/catalog/oyun-gta-v-trevor/03.jpg"
+    ],
+    "description": "1-10, 1-6"
+  },
+  {
+    "id": "oyun-gta-vi-gta-vi-cover-girl",
+    "name": "GTA VI Cover Girl",
+    "mainCategory": "Oyun",
+    "universe": "GTA VI",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "GTA VI Cover Girl",
+      "GTA VI",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "GTA VI"
+    ],
+    "cover": "assets/catalog/oyun-gta-vi-gta-vi-cover-girl/01.png",
+    "images": [
+      "assets/catalog/oyun-gta-vi-gta-vi-cover-girl/02.png",
+      "assets/catalog/oyun-gta-vi-gta-vi-cover-girl/03.png",
+      "assets/catalog/oyun-gta-vi-gta-vi-cover-girl/04.png",
+      "assets/catalog/oyun-gta-vi-gta-vi-cover-girl/05.png",
+      "assets/catalog/oyun-gta-vi-gta-vi-cover-girl/06.png"
+    ],
+    "description": "1/6 and 1/9"
+  },
+  {
     "id": "oyun-halo-4-master-chief",
     "name": "Master Chief",
     "mainCategory": "Oyun",
@@ -4452,6 +6156,48 @@
       "assets/catalog/oyun-halo-4-master-chief/04.jpg"
     ],
     "description": "Dimensions:\nHeight: 19.29\" (49.0 cm)\nWidth: 9.37\" (23.8 cm)\nDepth: 9.65\" (24.5 cm)"
+  },
+  {
+    "id": "oyun-hellblade-senua",
+    "name": "Senua",
+    "mainCategory": "Oyun",
+    "universe": "Hellblade",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Senua",
+      "Hellblade",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Hellblade"
+    ],
+    "cover": "assets/catalog/oyun-hellblade-senua/01.png",
+    "images": [
+      "assets/catalog/oyun-hellblade-senua/02.png"
+    ],
+    "description": "1/8"
+  },
+  {
+    "id": "oyun-indiana-jones-indiana-jones",
+    "name": "Indiana Jones",
+    "mainCategory": "Oyun",
+    "universe": "Indiana Jones",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Indiana Jones",
+      "Indiana Jones",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Indiana Jones"
+    ],
+    "cover": "assets/catalog/oyun-indiana-jones-indiana-jones/01.jpg",
+    "images": [
+      "assets/catalog/oyun-indiana-jones-indiana-jones/02.jpg",
+      "assets/catalog/oyun-indiana-jones-indiana-jones/03.jpg",
+      "assets/catalog/oyun-indiana-jones-indiana-jones/04.jpg"
+    ],
+    "description": "1/8"
   },
   {
     "id": "oyun-it-takes-two-cody",
@@ -4813,6 +6559,31 @@
     "description": "1_6"
   },
   {
+    "id": "oyun-mortal-kombat-goro",
+    "name": "Goro",
+    "mainCategory": "Oyun",
+    "universe": "Mortal Kombat",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Goro",
+      "Mortal Kombat",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Mortal Kombat"
+    ],
+    "cover": "assets/catalog/oyun-mortal-kombat-goro/01.jpg",
+    "images": [
+      "assets/catalog/oyun-mortal-kombat-goro/02.jpg",
+      "assets/catalog/oyun-mortal-kombat-goro/03.jpg",
+      "assets/catalog/oyun-mortal-kombat-goro/04.jpg",
+      "assets/catalog/oyun-mortal-kombat-goro/05.jpg",
+      "assets/catalog/oyun-mortal-kombat-goro/06.jpg",
+      "assets/catalog/oyun-mortal-kombat-goro/07.jpg"
+    ],
+    "description": "1/6 scale - height 50 cm"
+  },
+  {
     "id": "oyun-mortal-kombat-kitana",
     "name": "Kitana",
     "mainCategory": "Oyun",
@@ -5083,6 +6854,30 @@
     "description": "Scale: 1/8\nDimensions: 106 x 98 x 226 mm"
   },
   {
+    "id": "oyun-resident-evil-jill-valentine",
+    "name": "Jill Valentine",
+    "mainCategory": "Oyun",
+    "universe": "resident evil",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Jill Valentine",
+      "resident evil",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "resident evil"
+    ],
+    "cover": "assets/catalog/oyun-resident-evil-jill-valentine/01.jpg",
+    "images": [
+      "assets/catalog/oyun-resident-evil-jill-valentine/02.jpg",
+      "assets/catalog/oyun-resident-evil-jill-valentine/03.jpg",
+      "assets/catalog/oyun-resident-evil-jill-valentine/04.jpg",
+      "assets/catalog/oyun-resident-evil-jill-valentine/05.jpg",
+      "assets/catalog/oyun-resident-evil-jill-valentine/06.jpg"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
     "id": "oyun-residentevil-ada-wong",
     "name": "Ada Wong",
     "mainCategory": "Oyun",
@@ -5102,6 +6897,27 @@
       "assets/catalog/oyun-residentevil-ada-wong/03.jpg"
     ],
     "description": "1_9 and 1_6 scale."
+  },
+  {
+    "id": "oyun-residual-evil-diorama-leon-kennedy-and-grace-ashcroft",
+    "name": "Diorama Leon Kennedy and Grace Ashcroft",
+    "mainCategory": "Oyun",
+    "universe": "Residual Evil",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Diorama Leon Kennedy and Grace Ashcroft",
+      "Residual Evil",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Residual Evil"
+    ],
+    "cover": "assets/catalog/oyun-residual-evil-diorama-leon-kennedy-and-grace-ashcroft/01.jpg",
+    "images": [
+      "assets/catalog/oyun-residual-evil-diorama-leon-kennedy-and-grace-ashcroft/02.jpg",
+      "assets/catalog/oyun-residual-evil-diorama-leon-kennedy-and-grace-ashcroft/03.jpg"
+    ],
+    "description": "1/8, 1/6"
   },
   {
     "id": "oyun-residual-evil-leon",
@@ -5466,6 +7282,29 @@
     "description": "x218mm, Y343mm, Z197mm"
   },
   {
+    "id": "oyun-street-fighter-juri-han",
+    "name": "Juri Han",
+    "mainCategory": "Oyun",
+    "universe": "Street Fighter",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Juri Han",
+      "Street Fighter",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Street Fighter"
+    ],
+    "cover": "assets/catalog/oyun-street-fighter-juri-han/01.png",
+    "images": [
+      "assets/catalog/oyun-street-fighter-juri-han/02.png",
+      "assets/catalog/oyun-street-fighter-juri-han/03.png",
+      "assets/catalog/oyun-street-fighter-juri-han/04.png",
+      "assets/catalog/oyun-street-fighter-juri-han/05.png"
+    ],
+    "description": "scale 1/6"
+  },
+  {
     "id": "oyun-street-fighter-m-bison",
     "name": "M. Bison",
     "mainCategory": "Oyun",
@@ -5555,6 +7394,27 @@
     "description": "1_9 and 1_6 scale."
   },
   {
+    "id": "oyun-the-last-of-us-diorama-joel-ellie",
+    "name": "Diorama joel ellie",
+    "mainCategory": "Oyun",
+    "universe": "The Last of Us",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Diorama joel ellie",
+      "The Last of Us",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "The Last of Us"
+    ],
+    "cover": "assets/catalog/oyun-the-last-of-us-diorama-joel-ellie/01.png",
+    "images": [
+      "assets/catalog/oyun-the-last-of-us-diorama-joel-ellie/02.png",
+      "assets/catalog/oyun-the-last-of-us-diorama-joel-ellie/03.png"
+    ],
+    "description": "1/10, 1/8"
+  },
+  {
     "id": "oyun-the-last-of-us-joel",
     "name": "Joel",
     "mainCategory": "Oyun",
@@ -5574,6 +7434,32 @@
       "assets/catalog/oyun-the-last-of-us-joel/03.png"
     ],
     "description": "1/6th and 1/10th scale"
+  },
+  {
+    "id": "oyun-the-punisher-the-punisher",
+    "name": "The Punisher",
+    "mainCategory": "Oyun",
+    "universe": "The Punisher",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "The Punisher",
+      "The Punisher",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "The Punisher"
+    ],
+    "cover": "assets/catalog/oyun-the-punisher-the-punisher/01.jpg",
+    "images": [
+      "assets/catalog/oyun-the-punisher-the-punisher/02.jpg",
+      "assets/catalog/oyun-the-punisher-the-punisher/03.jpg",
+      "assets/catalog/oyun-the-punisher-the-punisher/04.jpg",
+      "assets/catalog/oyun-the-punisher-the-punisher/05.jpg",
+      "assets/catalog/oyun-the-punisher-the-punisher/06.jpg",
+      "assets/catalog/oyun-the-punisher-the-punisher/07.jpg",
+      "assets/catalog/oyun-the-punisher-the-punisher/08.jpg"
+    ],
+    "description": "1/6 scale - height 34 cm"
   },
   {
     "id": "oyun-the-witcher-ciri",
@@ -5622,6 +7508,30 @@
     "description": "Scale: 1/8\nDimensions: 249 x 220 x 251 mm"
   },
   {
+    "id": "oyun-the-witcher-geralt-4",
+    "name": "Geralt 4",
+    "mainCategory": "Oyun",
+    "universe": "The Witcher",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Geralt 4",
+      "The Witcher",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "The Witcher"
+    ],
+    "cover": "assets/catalog/oyun-the-witcher-geralt-4/01.jpg",
+    "images": [
+      "assets/catalog/oyun-the-witcher-geralt-4/02.jpg",
+      "assets/catalog/oyun-the-witcher-geralt-4/03.jpg",
+      "assets/catalog/oyun-the-witcher-geralt-4/04.jpg",
+      "assets/catalog/oyun-the-witcher-geralt-4/05.jpg",
+      "assets/catalog/oyun-the-witcher-geralt-4/06.jpg"
+    ],
+    "description": "1/6 Scale"
+  },
+  {
     "id": "oyun-the-witcher-geralt3",
     "name": "Geralt3",
     "mainCategory": "Oyun",
@@ -5643,6 +7553,28 @@
       "assets/catalog/oyun-the-witcher-geralt3/05.jpg"
     ],
     "description": "Dimensions:\nHeight: 16.77\" (42.6 cm)\nWidth: 11.65\" (29.6 cm)\nDepth: 10.79\" (27.4 cm)"
+  },
+  {
+    "id": "oyun-the-witcher-triss",
+    "name": "triss",
+    "mainCategory": "Oyun",
+    "universe": "The Witcher",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "triss",
+      "The Witcher",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "The Witcher"
+    ],
+    "cover": "assets/catalog/oyun-the-witcher-triss/01.png",
+    "images": [
+      "assets/catalog/oyun-the-witcher-triss/02.png",
+      "assets/catalog/oyun-the-witcher-triss/03.png",
+      "assets/catalog/oyun-the-witcher-triss/04.png"
+    ],
+    "description": "1/6 Scale"
   },
   {
     "id": "oyun-thewitcher-geralt-2",
@@ -5687,6 +7619,30 @@
       "assets/catalog/oyun-uncharted-nathan-drake/03.png"
     ],
     "description": "1/6th and 1/10th scale"
+  },
+  {
+    "id": "oyun-uncharted-nathan-drake-2",
+    "name": "Nathan Drake 2",
+    "mainCategory": "Oyun",
+    "universe": "Uncharted",
+    "gameGroup": "Diğer Oyunlar",
+    "tags": [
+      "Nathan Drake 2",
+      "Uncharted",
+      "Oyun",
+      "Diğer Oyunlar",
+      "oyun",
+      "Uncharted"
+    ],
+    "cover": "assets/catalog/oyun-uncharted-nathan-drake-2/01.jpg",
+    "images": [
+      "assets/catalog/oyun-uncharted-nathan-drake-2/02.jpg",
+      "assets/catalog/oyun-uncharted-nathan-drake-2/03.jpg",
+      "assets/catalog/oyun-uncharted-nathan-drake-2/04.jpg",
+      "assets/catalog/oyun-uncharted-nathan-drake-2/05.jpg",
+      "assets/catalog/oyun-uncharted-nathan-drake-2/06.jpg"
+    ],
+    "description": "1/6 scale"
   },
   {
     "id": "oyun-warcraft-3-arthas-warcraft-3",
