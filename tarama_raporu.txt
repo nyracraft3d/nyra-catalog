@@ -1,8 +1,12 @@
-Taranan toplam klasör: 467
-Doğrudan görsel içeren figür klasörü: 356
-Kataloğa eklenen figür: 356
-Toplam görsel: 1658
+Taranan toplam klasör: 518
+Kataloğa eklenen figür: 407
+Toplam görsel: 1947
 
-ÖNEMLİ:
-Bu sayı beklediğiniz sayıdan düşükse, eksik figür klasörleri seçtiğiniz output klasöründe değildir.
-envanter.csv dosyası kataloğa eklenen bütün figürleri tek tek listeler.
+ID DAĞILIMI:
+ANM: 36
+DC: 18
+GAM: 137
+LOL: 7
+MAR: 46
+MOV: 98
+WOW: 65
