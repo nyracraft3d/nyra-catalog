@@ -1,23 +1,274 @@
-const MAIN=["Anime","Oyun","Film-Dizi","DC","Marvel"],SUBS=["Tüm Oyunlar","League of Legends","World of Warcraft","Diğer Oyunlar"],ICONS={"Anime":"🎌","Oyun":"🎮","Film-Dizi":"🎬","DC":"🦇","Marvel":"🦸"};const s={items:[],main:null,sub:"Tüm Oyunlar",q:""};const $=x=>document.querySelector(x),norm=x=>(x||"").toLocaleLowerCase("tr-TR");async function init(){s.items=await(await fetch("data/catalog.json",{cache:"no-store"})).json();renderCats();renderSubs();render()}function countMain(c){return s.items.filter(x=>x.mainCategory===c).length}function countSub(c){let g=s.items.filter(x=>x.mainCategory==="Oyun");if(c==="Tüm Oyunlar")return g.length;if(c==="Diğer Oyunlar")return g.filter(x=>!["League of Legends","World of Warcraft"].includes(x.gameGroup)).length;return g.filter(x=>x.gameGroup===c).length}function renderCats(){$("#mainCategories").innerHTML=MAIN.map(c=>`<article class="category-card" data-c="${c}"><div class="icon">${ICONS[c]}</div><div><h3>${c}</h3><span>${countMain(c)} figür</span></div></article>`).join("");document.querySelectorAll(".category-card").forEach(x=>x.onclick=()=>{s.main=x.dataset.c;s.sub="Tüm Oyunlar";$("#gameSubs").hidden=s.main!=="Oyun";renderSubs();render();$(".catalog").scrollIntoView({behavior:"smooth"})})}function renderSubs(){$("#gameSubChips").innerHTML=SUBS.map(c=>`<button class="chip ${s.sub===c?"active":""}" data-s="${c}">${c} (${countSub(c)})</button>`).join("");document.querySelectorAll(".chip").forEach(x=>x.onclick=()=>{s.sub=x.dataset.s;renderSubs();render()})}function list(){let q=norm(s.q);return s.items.filter(x=>{let ok=!s.main||x.mainCategory===s.main;if(ok&&s.main==="Oyun"){if(s.sub==="League of Legends")ok=x.gameGroup==="League of Legends";else if(s.sub==="World of Warcraft")ok=x.gameGroup==="World of Warcraft";else if(s.sub==="Diğer Oyunlar")ok=!["League of Legends","World of Warcraft"].includes(x.gameGroup)}let hay=norm([x.id,x.name,x.mainCategory,x.universe,x.gameGroup,...(x.tags||[])].join(" "));return ok&&(!q||hay.includes(q))})}function render(){let a=list(),h=s.main||"Tüm Figürler",b=s.main||"Tüm Katalog";if(s.main==="Oyun"&&s.sub!=="Tüm Oyunlar"){b="Oyun";h=s.sub}if(s.q){b="Arama Sonucu";h=`“${s.q}”`}$("#breadcrumb").textContent=b;$("#resultsTitle").textContent=h;$("#resultCount").textContent=`${a.length} figür`;$("#emptyState").hidden=a.length!==0;$("#catalogGrid").innerHTML=a.map(x=>`<article class="card" data-id="${x.id}"><img src="${x.cover}" loading="lazy" onerror="this.src='assets/placeholder.svg'"><div><span>${x.universe} · ${x.id}</span><h3>${x.name}</h3></div></article>`).join("");document.querySelectorAll(".card").forEach(c=>c.onclick=()=>openModal(s.items.find(x=>x.id===c.dataset.id)))}function openModal(x){if(!x)return;$("#modalImage").src=x.cover;$("#modalTitle").textContent=x.name;$("#modalUniverse").textContent=`${x.universe} · ${x.id}`;let extras=[x.scale,x.height].filter(Boolean).join(" · ");$("#modalDescription").textContent=(extras?extras+"\n\n":"")+(x.description||"Bu model sipariş üzerine Nyra Craft atölyesinde üretilip elde boyanabilir.");let g=[x.cover,...(x.images||[])];$("#gallery").innerHTML=[...new Set(g)].map(i=>`<img src="${i}">`).join("");document.querySelectorAll("#gallery img").forEach(i=>i.onclick=()=>$("#modalImage").src=i.src);$("#modal").showModal()}$("#backButton").onclick=()=>{s.main=null;s.sub="Tüm Oyunlar";$("#gameSubs").hidden=true;render()};$("#homeLink").onclick=e=>{e.preventDefault();s.main=null;s.q="";$("#searchInput").value="";$("#gameSubs").hidden=true;render();scrollTo({top:0,behavior:"smooth"})};$("#closeModal").onclick=()=>$("#modal").close();$("#modal").onclick=e=>{if(e.target===$("#modal"))$("#modal").close()};
-const stickySearch = $("#stickySearchInput");
-const heroSearch = $("#searchInput");
+const MAIN = ["Anime", "Oyun", "Film-Dizi", "DC", "Marvel"];
+const SUBS = ["Tüm Oyunlar", "League of Legends", "World of Warcraft", "Diğer Oyunlar"];
+const ICONS = {
+  Anime: "🎌",
+  Oyun: "🎮",
+  "Film-Dizi": "🎬",
+  DC: "🦇",
+  Marvel: "🦸"
+};
 
-function syncSearch(value){
-  s.q = value;
-  if(heroSearch && heroSearch.value !== value) heroSearch.value = value;
-  if(stickySearch && stickySearch.value !== value) stickySearch.value = value;
+const s = {
+  items: [],
+  main: null,
+  sub: "Tüm Oyunlar",
+  q: "",
+  searchMode: false
+};
+
+const $ = selector => document.querySelector(selector);
+const norm = value => (value || "").toLocaleLowerCase("tr-TR");
+
+async function init() {
+  s.items = await (await fetch("data/catalog.json", { cache: "no-store" })).json();
+  renderCats();
+  renderSubs();
+  updateSearchLayout();
   render();
 }
 
-if(heroSearch){
-  heroSearch.oninput = e => syncSearch(e.target.value);
-}
-if(stickySearch){
-  stickySearch.oninput = e => syncSearch(e.target.value);
+function countMain(category) {
+  return s.items.filter(item => item.mainCategory === category).length;
 }
 
-$("#clearSearch").onclick = () => syncSearch("");
-$("#clearStickySearch").onclick = () => syncSearch("");
+function countSub(category) {
+  const games = s.items.filter(item => item.mainCategory === "Oyun");
+
+  if (category === "Tüm Oyunlar") return games.length;
+
+  if (category === "Diğer Oyunlar") {
+    return games.filter(item =>
+      !["League of Legends", "World of Warcraft"].includes(item.gameGroup)
+    ).length;
+  }
+
+  return games.filter(item => item.gameGroup === category).length;
+}
+
+function renderCats() {
+  $("#mainCategories").innerHTML = MAIN.map(category => `
+    <article class="category-card" data-c="${category}">
+      <div class="icon">${ICONS[category]}</div>
+      <div>
+        <h3>${category}</h3>
+        <span>${countMain(category)} figür</span>
+      </div>
+    </article>
+  `).join("");
+
+  document.querySelectorAll(".category-card").forEach(card => {
+    card.onclick = () => {
+      s.main = card.dataset.c;
+      s.sub = "Tüm Oyunlar";
+      s.searchMode = false;
+      $("#gameSubs").hidden = s.main !== "Oyun";
+      renderSubs();
+      updateSearchLayout();
+      render();
+      $(".catalog").scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+  });
+}
+
+function renderSubs() {
+  $("#gameSubChips").innerHTML = SUBS.map(category => `
+    <button class="chip ${s.sub === category ? "active" : ""}" data-s="${category}">
+      ${category} (${countSub(category)})
+    </button>
+  `).join("");
+
+  document.querySelectorAll(".chip").forEach(chip => {
+    chip.onclick = () => {
+      s.sub = chip.dataset.s;
+      renderSubs();
+      render();
+    };
+  });
+}
+
+function list() {
+  const query = norm(s.q);
+
+  return s.items.filter(item => {
+    let matchesCategory = !s.main || item.mainCategory === s.main;
+
+    if (matchesCategory && s.main === "Oyun") {
+      if (s.sub === "League of Legends") {
+        matchesCategory = item.gameGroup === "League of Legends";
+      } else if (s.sub === "World of Warcraft") {
+        matchesCategory = item.gameGroup === "World of Warcraft";
+      } else if (s.sub === "Diğer Oyunlar") {
+        matchesCategory = !["League of Legends", "World of Warcraft"].includes(item.gameGroup);
+      }
+    }
+
+    const searchableText = norm([
+      item.id,
+      item.name,
+      item.mainCategory,
+      item.universe,
+      item.gameGroup,
+      ...(item.tags || [])
+    ].join(" "));
+
+    return matchesCategory && (!query || searchableText.includes(query));
+  });
+}
+
+function render() {
+  const items = list();
+  let title = s.main || "Tüm Figürler";
+  let breadcrumb = s.main || "Tüm Katalog";
+
+  if (s.main === "Oyun" && s.sub !== "Tüm Oyunlar") {
+    breadcrumb = "Oyun";
+    title = s.sub;
+  }
+
+  if (s.q) {
+    breadcrumb = "Arama Sonucu";
+    title = `“${s.q}”`;
+  }
+
+  $("#breadcrumb").textContent = breadcrumb;
+  $("#resultsTitle").textContent = title;
+  $("#resultCount").textContent = `${items.length} figür`;
+  $("#emptyState").hidden = items.length !== 0;
+
+  $("#catalogGrid").innerHTML = items.map(item => `
+    <article class="card" data-id="${item.id}">
+      <img src="${item.cover}" loading="lazy" onerror="this.src='assets/placeholder.svg'">
+      <div>
+        <span>${item.universe} · ${item.id}</span>
+        <h3>${item.name}</h3>
+      </div>
+    </article>
+  `).join("");
+
+  document.querySelectorAll(".card").forEach(card => {
+    card.onclick = () => openModal(s.items.find(item => item.id === card.dataset.id));
+  });
+}
+
+function openModal(item) {
+  if (!item) return;
+
+  $("#modalImage").src = item.cover;
+  $("#modalTitle").textContent = item.name;
+  $("#modalUniverse").textContent = `${item.universe} · ${item.id}`;
+
+  const extras = [item.scale, item.height].filter(Boolean).join(" · ");
+  $("#modalDescription").textContent =
+    (extras ? `${extras}\n\n` : "") +
+    (item.description || "Bu model sipariş üzerine Nyra Craft atölyesinde üretilip elde boyanabilir.");
+
+  const gallery = [item.cover, ...(item.images || [])];
+  $("#gallery").innerHTML = [...new Set(gallery)]
+    .map(image => `<img src="${image}">`)
+    .join("");
+
+  document.querySelectorAll("#gallery img").forEach(image => {
+    image.onclick = () => {
+      $("#modalImage").src = image.src;
+    };
+  });
+
+  $("#modal").showModal();
+}
+
+const stickySearch = $("#stickySearchInput");
+const heroSearch = $("#searchInput");
+
+function updateSearchLayout() {
+  $("#categorySection").hidden = s.searchMode;
+  $("#searchReturn").hidden = !s.searchMode;
+
+  if (s.searchMode) {
+    $("#gameSubs").hidden = true;
+  } else {
+    $("#gameSubs").hidden = s.main !== "Oyun";
+  }
+}
+
+function enterSearchMode({ scroll = true } = {}) {
+  s.searchMode = true;
+  updateSearchLayout();
+
+  if (scroll) {
+    requestAnimationFrame(() => {
+      $(".catalog").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+}
+
+function leaveSearchMode({ clear = true, scroll = true } = {}) {
+  s.searchMode = false;
+
+  if (clear) {
+    s.q = "";
+    if (heroSearch) heroSearch.value = "";
+    if (stickySearch) stickySearch.value = "";
+  }
+
+  updateSearchLayout();
+  render();
+
+  if (scroll) {
+    requestAnimationFrame(() => {
+      $("#categorySection").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+}
+
+function syncSearch(value) {
+  s.q = value;
+
+  if (heroSearch && heroSearch.value !== value) {
+    heroSearch.value = value;
+  }
+
+  if (stickySearch && stickySearch.value !== value) {
+    stickySearch.value = value;
+  }
+
+  enterSearchMode({ scroll: true });
+  render();
+}
+
+if (heroSearch) {
+  heroSearch.onfocus = () => enterSearchMode({ scroll: true });
+  heroSearch.oninput = event => syncSearch(event.target.value);
+}
+
+if (stickySearch) {
+  stickySearch.onfocus = () => enterSearchMode({ scroll: true });
+  stickySearch.oninput = event => syncSearch(event.target.value);
+}
+
+$("#clearSearch").onclick = () => leaveSearchMode({ clear: true, scroll: true });
+$("#clearStickySearch").onclick = () => leaveSearchMode({ clear: true, scroll: true });
+$("#showCategoriesButton").onclick = () => leaveSearchMode({ clear: true, scroll: true });
+
+$("#backButton").onclick = () => {
+  s.main = null;
+  s.sub = "Tüm Oyunlar";
+  $("#gameSubs").hidden = true;
+  render();
+};
+
+$("#homeLink").onclick = event => {
+  event.preventDefault();
+  s.main = null;
+  s.sub = "Tüm Oyunlar";
+  leaveSearchMode({ clear: true, scroll: false });
+  scrollTo({ top: 0, behavior: "smooth" });
+};
+
+$("#closeModal").onclick = () => $("#modal").close();
+$("#modal").onclick = event => {
+  if (event.target === $("#modal")) {
+    $("#modal").close();
+  }
+};
 
 init();
-// deploy-fix-2026
