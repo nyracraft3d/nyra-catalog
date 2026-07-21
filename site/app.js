@@ -231,17 +231,19 @@ function syncSearch(value) {
     stickySearch.value = value;
   }
 
-  enterSearchMode({ scroll: true });
+  // Arama sırasında sayfayı otomatik kaydırma.
+  // Böylece kullanıcı yazdığı metni ekranda görmeye devam eder.
+  enterSearchMode({ scroll: false });
   render();
 }
 
 if (heroSearch) {
-  heroSearch.onfocus = () => enterSearchMode({ scroll: true });
+  heroSearch.onfocus = () => enterSearchMode({ scroll: false });
   heroSearch.oninput = event => syncSearch(event.target.value);
 }
 
 if (stickySearch) {
-  stickySearch.onfocus = () => enterSearchMode({ scroll: true });
+  stickySearch.onfocus = () => enterSearchMode({ scroll: false });
   stickySearch.oninput = event => syncSearch(event.target.value);
 }
 
