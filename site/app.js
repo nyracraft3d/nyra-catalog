@@ -20,3 +20,4 @@ $("#clearSearch").onclick = () => syncSearch("");
 $("#clearStickySearch").onclick = () => syncSearch("");
 
 init();
+// deploy-fix-2026
