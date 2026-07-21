@@ -1,3 +1,4 @@
+Kaynak klasör: C:\Users\baris\NyraCatalogManager\output
 Taranan toplam klasör: 518
 Kataloğa eklenen figür: 407
 Toplam görsel: 1947
