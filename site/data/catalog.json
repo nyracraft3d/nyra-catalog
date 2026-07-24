@@ -984,6 +984,113 @@
     "description": "1_6, and 1_9 scale."
   },
   {
+    "id": "ANM-0037",
+    "slug": "anm-0037",
+    "name": "ash and pikachu",
+    "mainCategory": "Anime",
+    "universe": "Pokemon",
+    "gameGroup": "Diğer Oyunlar",
+    "scale": "",
+    "height": "",
+    "etsy": "",
+    "tags": [
+      "ANM-0037",
+      "ash and pikachu",
+      "Pokemon",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Pokemon"
+    ],
+    "cover": "assets/catalog/anm-0037/01.png",
+    "images": [
+      "assets/catalog/anm-0037/02.png",
+      "assets/catalog/anm-0037/03.png",
+      "assets/catalog/anm-0037/04.png"
+    ],
+    "description": ""
+  },
+  {
+    "id": "ANM-0038",
+    "slug": "anm-0038",
+    "name": "Charizard",
+    "mainCategory": "Anime",
+    "universe": "Pokemon",
+    "gameGroup": "Diğer Oyunlar",
+    "scale": "",
+    "height": "",
+    "etsy": "",
+    "tags": [
+      "ANM-0038",
+      "Charizard",
+      "Pokemon",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Pokemon"
+    ],
+    "cover": "assets/catalog/anm-0038/01.png",
+    "images": [
+      "assets/catalog/anm-0038/02.png",
+      "assets/catalog/anm-0038/03.png",
+      "assets/catalog/anm-0038/04.png"
+    ],
+    "description": "Dimensions: 250mm x 200mm x 275mm"
+  },
+  {
+    "id": "ANM-0039",
+    "slug": "anm-0039",
+    "name": "Gengar",
+    "mainCategory": "Anime",
+    "universe": "Pokemon",
+    "gameGroup": "Diğer Oyunlar",
+    "scale": "",
+    "height": "",
+    "etsy": "",
+    "tags": [
+      "ANM-0039",
+      "Gengar",
+      "Pokemon",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Pokemon"
+    ],
+    "cover": "assets/catalog/anm-0039/01.png",
+    "images": [
+      "assets/catalog/anm-0039/02.png",
+      "assets/catalog/anm-0039/03.png"
+    ],
+    "description": "Dimensions: 312mm x 243mm x 280mm"
+  },
+  {
+    "id": "ANM-0040",
+    "slug": "anm-0040",
+    "name": "Gyarados",
+    "mainCategory": "Anime",
+    "universe": "Pokemon",
+    "gameGroup": "Diğer Oyunlar",
+    "scale": "",
+    "height": "",
+    "etsy": "",
+    "tags": [
+      "ANM-0040",
+      "Gyarados",
+      "Pokemon",
+      "Anime",
+      "Diğer Oyunlar",
+      "anime",
+      "Pokemon"
+    ],
+    "cover": "assets/catalog/anm-0040/01.png",
+    "images": [
+      "assets/catalog/anm-0040/02.png",
+      "assets/catalog/anm-0040/03.png",
+      "assets/catalog/anm-0040/04.png"
+    ],
+    "description": "Dimensions: 289mm x 205mm x 306mm at 1/8 scale"
+  },
+  {
     "id": "DC-0001",
     "slug": "dc-0001",
     "name": "Bane",

@@ -1,10 +1,10 @@
 Kaynak klasör: C:\Users\baris\NyraCatalogManager\output
-Taranan toplam klasör: 518
-Kataloğa eklenen figür: 407
-Toplam görsel: 1947
+Taranan toplam klasör: 522
+Kataloğa eklenen figür: 411
+Toplam görsel: 1962
 
 ID DAĞILIMI:
-ANM: 36
+ANM: 40
 DC: 18
 GAM: 137
 LOL: 7
