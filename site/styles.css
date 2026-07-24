@@ -116,3 +116,8 @@ footer strong{color:white}
   .sticky-search{margin:0;max-width:none}
   .topbar-instagram{display:none}
 }
+
+.category-card[data-c="Tümü"]{
+  border-color:#90b9ff55;
+  background:linear-gradient(145deg,#1b2940,#111722);
+}

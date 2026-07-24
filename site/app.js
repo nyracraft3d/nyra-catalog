@@ -1,11 +1,12 @@
-const MAIN = ["Anime", "Oyun", "Film-Dizi", "DC", "Marvel"];
+const MAIN = ["Tümü", "Anime", "Oyun", "Film-Dizi", "DC", "Marvel"];
 const SUBS = ["Tüm Oyunlar", "League of Legends", "World of Warcraft", "Diğer Oyunlar"];
 const ICONS = {
-  Anime: "🎌",
-  Oyun: "🎮",
+  "Tümü": "✦",
+  "Anime": "🎌",
+  "Oyun": "🎮",
   "Film-Dizi": "🎬",
-  DC: "🦇",
-  Marvel: "🦸"
+  "DC": "🦇",
+  "Marvel": "🦸"
 };
 
 const s = {
@@ -19,15 +20,71 @@ const s = {
 const $ = selector => document.querySelector(selector);
 const norm = value => (value || "").toLocaleLowerCase("tr-TR");
 
+const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+async function loadCatalog(maxAttempts = 4) {
+  let lastError;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const response = await fetch(`/data/catalog.json?v=20260723-2`, {
+        cache: "no-store"
+      });
+
+      if (!response.ok) {
+        throw new Error(`Katalog yüklenemedi: HTTP ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      if (!Array.isArray(data)) {
+        throw new Error("Katalog verisi beklenen formatta değil.");
+      }
+
+      return data;
+    } catch (error) {
+      lastError = error;
+
+      if (attempt < maxAttempts) {
+        await wait(attempt * 700);
+      }
+    }
+  }
+
+  throw lastError;
+}
+
+function showLoadError(error) {
+  console.error(error);
+
+  const emptyState = $("#emptyState");
+  emptyState.hidden = false;
+  emptyState.innerHTML = `
+    <strong>Katalog şu anda yüklenemedi.</strong><br>
+    <span>Bağlantıyı kontrol edip tekrar deneyin.</span><br><br>
+    <button id="retryCatalog" class="chip">Tekrar dene</button>
+  `;
+
+  $("#retryCatalog").onclick = () => {
+    emptyState.textContent = "Katalog yükleniyor…";
+    init();
+  };
+}
+
 async function init() {
-  s.items = await (await fetch("data/catalog.json", { cache: "no-store" })).json();
-  renderCats();
-  renderSubs();
-  updateSearchLayout();
-  render();
+  try {
+    s.items = await loadCatalog();
+    renderCats();
+    renderSubs();
+    updateSearchLayout();
+    render();
+  } catch (error) {
+    showLoadError(error);
+  }
 }
 
 function countMain(category) {
+  if (category === "Tümü") return s.items.length;
   return s.items.filter(item => item.mainCategory === category).length;
 }
 
@@ -58,13 +115,20 @@ function renderCats() {
 
   document.querySelectorAll(".category-card").forEach(card => {
     card.onclick = () => {
-      s.main = card.dataset.c;
+      const category = card.dataset.c;
+
+      s.main = category === "Tümü" ? null : category;
       s.sub = "Tüm Oyunlar";
       s.searchMode = false;
-      $("#gameSubs").hidden = s.main !== "Oyun";
+      s.q = "";
+
+      if (heroSearch) heroSearch.value = "";
+      if (stickySearch) stickySearch.value = "";
+
       renderSubs();
       updateSearchLayout();
       render();
+
       $(".catalog").scrollIntoView({ behavior: "smooth", block: "start" });
     };
   });
@@ -179,6 +243,18 @@ function openModal(item) {
 const stickySearch = $("#stickySearchInput");
 const heroSearch = $("#searchInput");
 
+function preserveScroll(callback) {
+  const x = window.scrollX;
+  const y = window.scrollY;
+
+  callback();
+
+  requestAnimationFrame(() => {
+    window.scrollTo(x, y);
+    setTimeout(() => window.scrollTo(x, y), 50);
+  });
+}
+
 function updateSearchLayout() {
   $("#categorySection").hidden = s.searchMode;
   $("#searchReturn").hidden = !s.searchMode;
@@ -190,15 +266,13 @@ function updateSearchLayout() {
   }
 }
 
-function enterSearchMode({ scroll = true } = {}) {
-  s.searchMode = true;
-  updateSearchLayout();
+function enterSearchMode() {
+  if (s.searchMode) return;
 
-  if (scroll) {
-    requestAnimationFrame(() => {
-      $(".catalog").scrollIntoView({ behavior: "smooth", block: "start" });
-    });
-  }
+  preserveScroll(() => {
+    s.searchMode = true;
+    updateSearchLayout();
+  });
 }
 
 function leaveSearchMode({ clear = true, scroll = true } = {}) {
@@ -221,29 +295,30 @@ function leaveSearchMode({ clear = true, scroll = true } = {}) {
 }
 
 function syncSearch(value) {
-  s.q = value;
+  preserveScroll(() => {
+    s.q = value;
 
-  if (heroSearch && heroSearch.value !== value) {
-    heroSearch.value = value;
-  }
+    if (heroSearch && heroSearch.value !== value) {
+      heroSearch.value = value;
+    }
 
-  if (stickySearch && stickySearch.value !== value) {
-    stickySearch.value = value;
-  }
+    if (stickySearch && stickySearch.value !== value) {
+      stickySearch.value = value;
+    }
 
-  // Arama sırasında sayfayı otomatik kaydırma.
-  // Böylece kullanıcı yazdığı metni ekranda görmeye devam eder.
-  enterSearchMode({ scroll: false });
-  render();
+    s.searchMode = true;
+    updateSearchLayout();
+    render();
+  });
 }
 
 if (heroSearch) {
-  heroSearch.onfocus = () => enterSearchMode({ scroll: false });
+  heroSearch.onfocus = enterSearchMode;
   heroSearch.oninput = event => syncSearch(event.target.value);
 }
 
 if (stickySearch) {
-  stickySearch.onfocus = () => enterSearchMode({ scroll: false });
+  stickySearch.onfocus = enterSearchMode;
   stickySearch.oninput = event => syncSearch(event.target.value);
 }
 
@@ -254,7 +329,10 @@ $("#showCategoriesButton").onclick = () => leaveSearchMode({ clear: true, scroll
 $("#backButton").onclick = () => {
   s.main = null;
   s.sub = "Tüm Oyunlar";
-  $("#gameSubs").hidden = true;
+  s.q = "";
+  if (heroSearch) heroSearch.value = "";
+  if (stickySearch) stickySearch.value = "";
+  updateSearchLayout();
   render();
 };
 
@@ -262,7 +340,14 @@ $("#homeLink").onclick = event => {
   event.preventDefault();
   s.main = null;
   s.sub = "Tüm Oyunlar";
-  leaveSearchMode({ clear: true, scroll: false });
+  s.searchMode = false;
+  s.q = "";
+
+  if (heroSearch) heroSearch.value = "";
+  if (stickySearch) stickySearch.value = "";
+
+  updateSearchLayout();
+  render();
   scrollTo({ top: 0, behavior: "smooth" });
 };
 
